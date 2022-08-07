@@ -16,5 +16,5 @@
 ## Subjects Summary
 
 - Class 01: Computing topics introduction
-- Class 02: JUnit5 introduction
+- Class 02: [JUnit5 introduction](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class02)
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)

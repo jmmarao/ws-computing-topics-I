@@ -1,12 +1,13 @@
 package br.edu.ifsp.class02.task;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class RentalCompany {
-    private List<Rental> rentals;
+public class RentalStore {
+    private List<Rental> rentals = new ArrayList<>();
 
-    public RentalCompany(List<Rental> rentals) {
-        this.rentals = rentals;
+    public RentalStore() {
+
     }
 
     public void addRental(Rental rental) {
@@ -28,7 +29,7 @@ public class RentalCompany {
 
     @Override
     public String toString() {
-        return "RentalCompany" +
+        return "Rental Story" +
                 "\n" + rentals;
     }
 }

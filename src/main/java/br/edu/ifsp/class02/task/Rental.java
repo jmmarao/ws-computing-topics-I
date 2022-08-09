@@ -2,18 +2,18 @@ package br.edu.ifsp.class02.task;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Rental {
     private Integer id;
     private Customer customer;
-    private List<Dvd> dvds;
+    private List<Dvd> dvds = new ArrayList<>();
     private LocalDateTime rentalDate;
 
-    public Rental(Integer id, Customer customer, List<Dvd> dvds, LocalDateTime rentalDate) {
+    public Rental(Integer id, Customer customer, LocalDateTime rentalDate) {
         this.id = id;
         this.customer = customer;
-        this.dvds = dvds;
         this.rentalDate = rentalDate;
     }
 

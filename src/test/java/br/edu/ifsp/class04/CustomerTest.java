@@ -3,15 +3,17 @@ package br.edu.ifsp.class04;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.condition.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class CustomerTest {
-    private static Customer customer;
+    private Customer customer;
 
     @BeforeAll
-    public static void initializeCustomer() {
+    public void initializeCustomer() {
         customer = new Customer("", "");
     }
 

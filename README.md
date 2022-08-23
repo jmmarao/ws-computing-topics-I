@@ -19,4 +19,5 @@
 - Class 02: [JUnit5 introduction](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class02)
   - Task:  [JUnit5 introduction](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class02/task)
 - Class 03: Task correction
+- Class 04: [Tagging, ExecOrder and LifeCycle](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class04)
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)

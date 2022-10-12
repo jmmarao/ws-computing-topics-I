@@ -23,5 +23,6 @@
   - Task:  [Tagging, exec order and fife cycle](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class04/task)
 - Class 05: [Repetead and parametrized tests](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class05)
   - Task:  [Repetead and parametrized tests](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class05/task)
-- Class 06:
+- Class 06: [Selenium introduction](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/main/java/br/edu/ifsp/class06)
+
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)

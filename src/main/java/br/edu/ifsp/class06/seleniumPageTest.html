@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exemplo de getItem</title>
+  <script>
+    function validar(){
+      if(document.getElementById("idLogin").value == ""){
+        document.getElementById("p1").innerHTML = "Este campo é requerido";
+        document.getElementById("p1").style="color:red";
+        document.getElementById("idLogin").style="border-color:red";
+        document.getElementsByTagName("label")[1].style="color:red";
+      }else{
+        document.getElementById("p1").innerHTML = "";
+        document.getElementById("p1").style="color:black";
+        document.getElementById("idLogin").style="border-color:black";
+        document.getElementsByTagName("label")[1].style="color:black";
+      }
+    }
+  </script>
+
+</head>
+<body>
+<h1>Exemplo de drop down list</h1>
+<form>
+  <label for="carro">Escolha um carro:</label>
+  <select name="cars" id="carro">
+    <option value="vv">Volvo</option>
+    <option value="sb">Saab</option>
+    <option value="ms">Mercedes</option>
+    <option value="ad">Audi</option>
+  </select>
+  <br>
+  <label for="idLogin">Login</label>
+  <input type="text" id="idLogin">
+  <input id="send" type="button" onclick="validar()" value="Enviar">
+</form>
+<p id="p1"></p>
+</body>
+</html>

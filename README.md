@@ -25,5 +25,6 @@
   - Task:  [Repetead and parametrized tests](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/test/java/br/edu/ifsp/class05/task)
 - Class 06: [Selenium introduction - part 1](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/main/java/br/edu/ifsp/class06)
 - Class 07: [Selenium introduction - part 2](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/main/java/br/edu/ifsp/class07)
+- - Class 08: [Selenium introduction - part 3](https://github.com/jmmarao/ws-computing-topics-I/tree/main/src/main/java/br/edu/ifsp/class08)
 
 ### :link: [ADS Course Information Access](https://scl.ifsp.edu.br/index.php/cursos.html?id=116:ads&catid=61)

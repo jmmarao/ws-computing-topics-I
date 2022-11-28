@@ -1,20 +1,15 @@
 package br.edu.ifsp.class07;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.ArrayList;
-
 public class SeleniumTest {
     public static void main(String[] args) throws InterruptedException {
-        String projectPath = System.getProperty("user.dir");
-        String chromeDriverPath = projectPath + "\\lib\\chromedriver\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        System.setProperty("webdriver.chrome.driver", "src/main/java/br/edu/ifsp/class06/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.get("http://localhost/2022_02/03_TC1S5/s08e01_Selenium_Seletores.html");
+        driver.get("file:/home/jones/Documents/repository/ifsp/ws-computing-topics-I/src/main/java/br/edu/ifsp/class07/index.html");
 
         WebElement iptNome = driver.findElement(By.cssSelector("input[name='nome']"));
         iptNome.sendKeys("João");
